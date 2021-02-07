@@ -1,19 +1,15 @@
 ﻿using CodeToGetherChallengeJanFeb.EntityFramework.EntityFramework;
 using CodeToGetherChallengeJanFeb.EntityFramework.Models;
 using CodeToGetherChallengeJanFeb.EntityFramework.Services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace CodeToGetherChallengeJanFeb.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class RecipesController : IGeneralController<Recipe>
+    public class RecipesController : IGeneralApiController<Recipe>
     {
         private readonly GenericDataService<Recipe> recipeService;
         public RecipesController(RecipeContext context)

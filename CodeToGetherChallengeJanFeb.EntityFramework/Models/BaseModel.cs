@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CodeToGetherChallengeJanFeb.EntityFramework.Models
+﻿namespace CodeToGetherChallengeJanFeb.EntityFramework.Models
 {
     public class BaseModel
     {

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CodeToGetherChallengeJanFeb.EntityFramework.Models
+﻿namespace CodeToGetherChallengeJanFeb.EntityFramework.Models
 {
     public class Recipe : BaseModel
     {
