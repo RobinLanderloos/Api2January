@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeToGetherChallengeJanFeb", "CodeToGetherChallengeJanFeb\CodeToGetherChallengeJanFeb.csproj", "{A6A99B95-FF34-4EFC-A41B-9BE9C57262C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeToGetherChallengeJanFeb.EntityFramework", "CodeToGetherChallengeJanFeb.EntityFramework\CodeToGetherChallengeJanFeb.EntityFramework.csproj", "{6B88FE88-3F8C-4322-930C-0E2F3A4BDC33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6A99B95-FF34-4EFC-A41B-9BE9C57262C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6A99B95-FF34-4EFC-A41B-9BE9C57262C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6A99B95-FF34-4EFC-A41B-9BE9C57262C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6A99B95-FF34-4EFC-A41B-9BE9C57262C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B88FE88-3F8C-4322-930C-0E2F3A4BDC33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B88FE88-3F8C-4322-930C-0E2F3A4BDC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B88FE88-3F8C-4322-930C-0E2F3A4BDC33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B88FE88-3F8C-4322-930C-0E2F3A4BDC33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E90E2C0-209F-4040-913B-A9DC1200E766}
+	EndGlobalSection
+EndGlobal
