@@ -11,10 +11,10 @@ namespace CodeToGetherChallengeJanFeb.Controllers
     [Route("[controller]")]
     public class RecipesController : IGeneralApiController<Recipe>
     {
-        private readonly GenericDataService<Recipe> recipeService;
+        private readonly GenericRepository<Recipe> recipeService;
         public RecipesController(RecipeContext context)
         {
-            recipeService = new GenericDataService<Recipe>(context);
+            recipeService = new GenericRepository<Recipe>(context);
         }
 
         [HttpGet]

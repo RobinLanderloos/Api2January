@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace CodeToGetherChallengeJanFeb.EntityFramework.Services
 {
-    public class GenericDataService<T> : IService<T> where T : BaseModel
+    public class GenericRepository<T> : IRepository<T> where T : BaseModel
     {
-        public DbContext context;
+        private readonly DbContext context;
 
-        public GenericDataService(DbContext context)
+        public GenericRepository(DbContext context)
         {
             this.context = context;
         }
