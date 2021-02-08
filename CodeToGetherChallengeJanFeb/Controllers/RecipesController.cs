@@ -18,14 +18,14 @@ namespace CodeToGetherChallengeJanFeb.Controllers
         }
 
         [HttpGet]
-        [Route("get/{id}")] //recipes/get/{id}
+        [Route("{id}")] //recipes/{id}
         public async Task<Recipe> Get(int id)
         {
             return await recipeService.Get(id);
         }
 
         [HttpGet]
-        [Route("getall")]//recipes/getall
+        //recipes
         public async Task<IEnumerable<Recipe>> GetAll()
         {
             return await recipeService.GetAll();
